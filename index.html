@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
-<title>Personal Website</title>
+<title>S.Mohana Krishna</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="assets/default.css">
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script src="https://kit.fontawesome.com/78272aefec.js" crossorigin="anonymous"></script>
 <style>
 html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 </style>
@@ -26,51 +27,24 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
           
         </div>
 		<div class="w3-container w3-text-black">
-            <h2>S. Mohana Krishna</h2>
+            <h2>S.Mohana Krishna</h2>
           </div>
         <div class="w3-container">
-          <div><div class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-dark-grey" style="float:left"></div><div>Student</div></div>
-          <div><div class="fa fa-home fa-fw w3-margin-right w3-large w3-text-dark-grey" style="float:left"></div><div>University of Colorado Boulder, CO,US</div></div>
-          <div><div class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-dark-grey" style="float:left"></div><div>mohana.sanagavarapau@colorado.edu</div></div>
-          <div><div class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-dark-grey" style="float:left"></div><div>7215014962</div></div>
-		  <div><div class="fa fa-linkedin w3-margin-right fa-fw w3-large w3-text-dark-grey" style="float:left"></div><div><a href="http://www.linkedin.com/in/s-mohan-krishna">Linkedin</a></div></div>
-		  <div><div class="fa fa-github w3-margin-right fa-fw w3-large w3-text-dark-grey"  style="float:left"></div><div><a href="https://github.com/mohankrishna15">Github</a></div></div>
+          <div><div class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-dark-grey" style="float:left"></div><div>Grad Student</div></div>
+          <div><div class="fa fa-home fa-fw w3-margin-right w3-large w3-text-dark-grey" style="float:left"></div><div>University of Colorado Boulder, CO</div></div>
+          <div><div class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-dark-grey" style="float:left"></div><div><a href="mailto:mohana.sanagavarapau@colorado.edu" target="_blank">mohana.sanagavarapau@colorado.edu</a></div></div>
+		  <div><div class="fab fa-linkedin w3-margin-right fa-fw w3-large w3-text-dark-grey" style="float:left"></div><div><a href="http://www.linkedin.com/in/s-mohan-krishna">Linkedin</a></div></div>
+		  <div><div class="fab fa-github-square w3-margin-right fa-fw w3-large w3-text-dark-grey"  style="float:left"></div><div><a href="https://github.com/mohankrishna15">Github</a></div></div>
+          <div><div class="fas fa-file-pdf w3-margin-right fa-fw w3-large w3-text-dark-grey"  style="float:left"></div><div><a href="https://github.com/mohankrishna15/mohankrishna15.github.io/raw/master/files/Resume.pdf" download>Resume</a></div></div>
 		  <hr>
-		  <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-dark-grey"></i>Interests</b></p>
-          <p>Machine Learning</p>
-		  <p>Computer Vision</p>
-		  <p>Robotics</p>
-          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-dark-grey"></i>Programming Languages</b></p>
-          <p>Java</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-dark-grey" style="width:80%">80%</div>
-          </div>
-          <p>Python</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-dark-grey" style="width:60%">
-              <div class="w3-center w3-text-white">60%</div>
-            </div>
-          </div>
-          <p>Matlab</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-dark-grey" style="width:70%">70%</div>
-          </div>
-   
 
-          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-dark-grey"></i>Languages</b></p>
-          <p>English</p>
-          <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-dark-grey" style="height:24px;width:100%"></div>
-          </div>
-          <p>Hindi</p>
-          <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-dark-grey" style="height:24px;width:100%"></div>
-          </div>
-          <p>Telugu</p>
-          <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-dark-grey" style="height:24px;width:100%"></div>
-          </div>
           <br>
+        </div>
+        <div class="menu">
+          <button id="defaultOpen" class="menulinks" onclick="openlink(event, 'About')"><b><i class="fa fa-user-circle-o fa-fw w3-margin-right w3-text-dark-grey"></i>About</b></button>
+         <button class="menulinks" onclick="openlink(event, 'Education')"><b><i class="fa fa-university fa-fw w3-margin-right w3-text-dark-grey"></i>Education</b></button>
+          <button class="menulinks" onclick="openlink(event, 'WorkEx')"><b><i class="fa fa-suitcase fa-fw w3-margin-right w3-text-dark-grey"></i>Work Experience</b></button>
+          <button class="menulinks" onclick="openlink(event, 'Projects')"><b><i class="fa fa-tasks fa-fw w3-margin-right w3-text-dark-grey"></i>Projects</b></button>
         </div>
       </div><br>
 
@@ -79,8 +53,32 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 
     <!-- Right Column -->
     <div class="w3-twothird">
-      <div class="w3-container w3-card w3-white">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-dark-grey"></i>Education</h2>
+      <div id="About" class="tabcontent">
+        <div class="w3-container w3-card w3-white">
+          <h2 class="w3-text-grey w3-padding-16"><i class="fa-fw w3-large w3-text-dark-grey"></i>Hi,</h2>
+          <ul>
+            <li><p>I am currently studying master's in computer science at University of Colorado Boulder</p></li>
+            <li><p>I graduated in Electronics Engineering from IIT(BHU)-Varanasi in 2015 </p></li>
+            <li><p>Prior to joining CU Boulder, I worked as a Jr.Research Scientist for one year and a software developer for 3 years at mykaarma.</p></li>
+          </ul>
+
+        </div>
+        <div class="skills w3-container w3-card w3-white">
+            <h2 class="w3-text-grey w3-padding-16"><i class="fa-fw w3-xxlarge w3-text-dark-grey"></i>My skills</h2>
+            <p class="w3-large"><b><i class="fa-fw w3-text-dark-grey"></i>Programming Languages</b></p>
+            <p>Java,Python,C,MATLAB,SQL,Google Apps Script</p>
+            <p class="w3-large"><b><i class="fa-fw w3-text-dark-grey"></i>Frameworks</b></p>
+            <p>Tensorflow,GWT,Hibernate,Spring</p>
+            <p class="w3-large"><b><i class="fa-fw w3-text-dark-grey"></i>Web Technologies</b></p>
+            <p>HTML,CSS,CSS3,Javascript</p>
+        </div>
+        <div class="interests w3-container w3-card w3-white">
+          <h2 class="w3-text-grey w3-padding-16"><i class="fa-fw w3-xxlarge w3-text-dark-grey"></i>My interests</h2>
+          <p>Machine Learning, Computer Vision,Robotics</p>
+        </div>
+      </div>
+      <div id="Education"  class="tabcontent w3-container w3-card w3-white">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-university fa-fw w3-margin-right w3-xxlarge w3-text-dark-grey"></i>Education</h2>
         <div class="w3-container">
           <h5 class="w3-opacity"><b>University of Colorado Boulder</b></h5>
           <h6 class="w3-text-dark-grey"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Aug 2019 - Present</h6>
@@ -95,45 +93,124 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
         </div>
       </div>
 	  
-      <div class="w3-container w3-card w3-white w3-margin-bottom">
+      <div id="WorkEx"  class=" tabcontent w3-container w3-card w3-white w3-margin-bottom">
         <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-dark-grey"></i>Work Experience</h2>
         <div class="w3-container">
           <h5 class="w3-opacity"><b>Jr. Research Scientist / mykaarma.com</b></h5>
           <h6 class="w3-text-dark-grey"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Dec 2018 - June 2019</h6>
-          <p>Worked on improving the accuracy, using crowdsourcing techniques, of an internal bot, which uses natural language processing to suggest replies for incoming messages.</p>
+          <ul>
+            <li><p>Worked on the development of an NLP bot, whose objective was to be able suggest replies for incoming messages.</p></li>
+            <li><p>We had an internal game implemented to crowdsource the task of generating training data and used that data to train the bot.</p></li>
+          </ul>
           <hr>
         </div>
         <div class="w3-container">
           <h5 class="w3-opacity"><b>Software Developer / mykaarma.com</b></h5>
           <h6 class="w3-text-dark-grey"><i class="fa fa-calendar fa-fw w3-margin-right"></i>June 2015 - Dec 2018</h6>
           <ul>
-			<li>Implemented SSO (Single Sign On ) using spring SAML Extension for the service provider and SimpleSamlphp for the identity provider.</li>	
-			<li>Lead the project of Internationalisation of myKaarma application, hence giving the ability to support multiple languages.</li>
-			<li>Developed and maintained a reporting application, which gives insight into the usage of the mykaarma application. Different  metrics are calculated using mysql queries and resulting data is rendered as beautiful charts using google scripts.</li>
+            <li><p>Implemented SSO (Single Sign On ) using spring SAML Extension for the service provider and SimpleSamlphp for the identity provider</p></li>
+            <li><p>Lead the project of Internationalisation of myKaarma application, hence giving the ability to support multiple languages</p></li>
+            <li><p>Developed and maintained a reporting application, which gives insight into the usage of the mykaarma application. Different  metrics are calculated using mysql queries and resulting data is rendered as beautiful charts using google scripts</p></li>
 		  </ul>
           <hr>
         </div>
         <div class="w3-container">
           <h5 class="w3-opacity"><b>Part time Research Consultant / WorldQuant LLC</b></h5>
           <h6 class="w3-text-dark-grey"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Oct 2014 - July 2015</h6>
-          <p>Worked on creating alphas - mathematical predicitve models, to model the performance of financial instruments.</p><br>
+          <ul>
+            <li><p>Worked on creating alphas - mathematical predicitve models, to model the performance of financial instruments.</p></li>
+          </ul>
+          <br>
         </div>
-      </div>
-	  <div class="w3-container w3-card w3-white w3-margin-bottom">
         <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-dark-grey"></i>Internship</h2>
         <div class="w3-container">
           <h5 class="w3-opacity"><b>Software engineer / Karpa IT solutions</b></h5>
           <h6 class="w3-text-dark-grey"><i class="fa fa-calendar fa-fw w3-margin-right"></i>March 2014 - May 2014</h6>
           <ul>
-		  <li>Made a basic working model of an image based adult content filter.</li>
-		  <li>Approach was inspired from the research paper  `Detecting Pornographic Images by Localizing Skin ROIs’ by Sotiris Karavarsamis, et. al`</li>
-		  <li>Using skin color information, identified regions of interest (ROI) from the image</li>
-		  <li>Extracted a set of 19 features from the ROI, trained a random forest comprising of 100 trees, with 3 features at most for a tree.</li>
-		  <li>Classified images with an accuracy of 75%.</li>
+            <li><p>Made a basic working model of an image based adult content filter</p></li>
+            <li><p>Approach was inspired from the research paper  `Detecting Pornographic Images by Localizing Skin ROIs’ by Sotiris Karavarsamis, et. al`</p></li>
+            <li><p>Using skin color information, identified regions of interest (ROI) from the image</p></li>
+            <li><p>Extracted a set of 19 features from the ROI, trained a random forest comprising of 100 trees, with 3 features at most for a tree.</p></li>
+            <li><p>Classified images with an accuracy of 75%.</p></li>
 		  </ul>
           <hr>
         </div>
 	  </div>
+
+      <div id="Projects"  class="tabcontent w3-container w3-card w3-white">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-tasks fa-fw w3-margin-right w3-xxlarge w3-text-dark-grey"></i>Projects</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Semantic Segmentation </b></h5>
+          <h6 class="w3-text-dark-grey"><i class="fa fa-map-marker fa-fw w3-margin-right"></i>MACHINE LEARNING NANODEGREE PROGRAM, UDACITY</h6>
+          <h6 class="w3-text-dark-grey"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2017</h6>
+          <ul>
+            <li>
+              <p>Implemented the following research paper ‘DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs’</p>
+            </li>
+            <li>
+              <p>Used transfer learning i.e used a pre-trained VGG16 model, trained for the task of object detection with some modifications and re-tuned it for the task of semantic segmentation</p>
+            </li>
+            <li>
+              <p>The model uses atrous convolutions instead of normal convolutions to tackle the issue of reduced spatial resolution due to repeated max pooling</p>
+            </li>
+            <li>
+              <p>Augmented PASCAL VOC dataset of 8498 images was used to train the model</p>
+            </li>
+            <li>
+              <p>The mean IOU achieved was 0.52 on validation set and 0.573 on test set</p>
+            </li>
+            <li>
+              <p>Project code can be accessed <a href="https://github.com/mohankrishna15/projects/tree/master/capstone">here</a></p>
+            </li>
+          </ul>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Classify Images Using a Neural Network </b></h5>
+           <h6 class="w3-text-dark-grey"><i class="fa fa-map-marker fa-fw w3-margin-right"></i>MACHINE LEARNING NANODEGREE PROGRAM, UDACITY</h6>
+          <h6 class="w3-text-dark-grey"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2017</h6>
+          <ul>
+            <li>
+              <p>Trained a deep neural network consisting of  convolutional layers ,   max pool layers and fully connected layers on CIFAR-10 dataset to classify images</p>
+            </li>
+            <li>
+              <p>Project code can be accessed <a href="https://github.com/mohankrishna15/projects/tree/master/image-classification">here</a></p>
+            </li>
+          </ul>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Train a Smart Cab to Drive </b></h5>
+           <h6 class="w3-text-dark-grey"><i class="fa fa-map-marker fa-fw w3-margin-right"></i>MACHINE LEARNING NANODEGREE PROGRAM, UDACITY</h6>
+          <h6 class="w3-text-dark-grey"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2017</h6>
+          <ul>
+            <li>
+              <p>Applied reinforcement learning to build a simulated vehicle navigation agent</p>
+            </li>
+            <li>
+              <p>This project involved modeling a complex control problem in terms of limited available inputs, and designing a scheme to automatically learn an optimal driving strategy based on rewards and penalties</p>
+            </li>
+            <li>
+              <p>Project code can be accessed <a href="https://github.com/mohankrishna15/projects/tree/master/smartcab">here</a></p>
+            </li>
+          </ul>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Detection of Adult Content in Images </b></h5>
+          <h6 class="w3-text-dark-grey"><i class="fa fa-map-marker fa-fw w3-margin-right"></i>B.TECH PROJECT, INDIAN INSTITUTE OF TECHNOLOGY(B.H.U.), VARANASI</h6>
+          <h6 class="w3-text-dark-grey"><i class="fa fa-calendar fa-fw w3-margin-right"></i>JUNE 2014-MAY 2015</h6>
+          <ul>
+            <li>
+              <p>Continued my work at the internship, mainly worked on increasing the skin classification accuracy of first stage</p>
+            </li>
+            <li>
+              <p>Completed the project with a model using 19 features on a random forest comprising of 200 trees, with an accuracy of 80%</p>
+            </li>
+          </ul>
+          <hr>
+        </div>
+      </div>
       
 
     <!-- End Right Column -->
@@ -145,11 +222,22 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
   <!-- End Page Container -->
 </div>
 
-<footer class="w3-container w3-teal w3-center w3-margin-top">
-  <p>Find me on.</p>
-  <a href="http://www.linkedin.com/in/s-mohan-krishna"><i class="fa fa-linkedin w3-hover-opacity" ></i></a>
-  <a href="https://github.com/mohankrishna15"><i class="fa fa-github w3-hover-opacity" ></i></a>
-</footer>
+<script>
+function openlink(evt, menuItemName) {
+  var i, tabcontent, menulinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  menulinks = document.getElementsByClassName("menulinks");
+  for (i = 0; i < menulinks.length; i++) {
+    menulinks[i].className = menulinks[i].className.replace(" active", "");
+  }
+  document.getElementById(menuItemName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+document.getElementById("defaultOpen").click();
+</script>
 
 </body>
 </html>
