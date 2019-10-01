@@ -19,7 +19,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
   <div class="w3-row-padding">
   
     <!-- Left Column -->
-    <div class="w3-third">
+    <div class="leftColumn">
     
       <div class="w3-white w3-text-grey w3-card-4">
         <div class="w3-display-container">
@@ -32,7 +32,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
         <div class="w3-container">
           <div><div class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-dark-grey" style="float:left"></div><div>Grad Student</div></div>
           <div><div class="fa fa-home fa-fw w3-margin-right w3-large w3-text-dark-grey" style="float:left"></div><div>University of Colorado Boulder, CO</div></div>
-          <div><div class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-dark-grey" style="float:left"></div><div><a href="mailto:mohana.sanagavarapau@colorado.edu" target="_blank">mohana.sanagavarapau@colorado.edu</a></div></div>
+          <div><div class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-dark-grey" style="float:left"></div><div><a href="mailto:mohana.sanagavarapau@colorado.edu" target="_blank">Email</a></div></div>
 		  <div><div class="fab fa-linkedin w3-margin-right fa-fw w3-large w3-text-dark-grey" style="float:left"></div><div><a href="http://www.linkedin.com/in/s-mohan-krishna">Linkedin</a></div></div>
 		  <div><div class="fab fa-github-square w3-margin-right fa-fw w3-large w3-text-dark-grey"  style="float:left"></div><div><a href="https://github.com/mohankrishna15">Github</a></div></div>
           <div><div class="fas fa-file-pdf w3-margin-right fa-fw w3-large w3-text-dark-grey"  style="float:left"></div><div><a href="https://github.com/mohankrishna15/mohankrishna15.github.io/raw/master/files/Resume.pdf" download>Resume</a></div></div>
@@ -41,10 +41,10 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
           <br>
         </div>
         <div class="menu">
-          <button id="defaultOpen" class="menulinks" onclick="openlink(event, 'About')"><b><i class="fa fa-user-circle-o fa-fw w3-margin-right w3-text-dark-grey"></i>About</b></button>
-         <button class="menulinks" onclick="openlink(event, 'Education')"><b><i class="fa fa-university fa-fw w3-margin-right w3-text-dark-grey"></i>Education</b></button>
-          <button class="menulinks" onclick="openlink(event, 'WorkEx')"><b><i class="fa fa-suitcase fa-fw w3-margin-right w3-text-dark-grey"></i>Work Experience</b></button>
-          <button class="menulinks" onclick="openlink(event, 'Projects')"><b><i class="fa fa-tasks fa-fw w3-margin-right w3-text-dark-grey"></i>Projects</b></button>
+          <button class="menulinks" onclick="openlink(event, '#About')"><b><i class="fa fa-user-circle-o fa-fw w3-margin-right w3-text-dark-grey"></i>About</b></button>
+         <button class="menulinks" onclick="openlink(event, '#Education')"><b><i class="fa fa-university fa-fw w3-margin-right w3-text-dark-grey"></i>Education</b></button>
+          <button class="menulinks" onclick="openlink(event, '#WorkEx')"><b><i class="fa fa-suitcase fa-fw w3-margin-right w3-text-dark-grey"></i>Work Experience</b></button>
+          <button class="menulinks" onclick="openlink(event, '#Projects')"><b><i class="fa fa-tasks fa-fw w3-margin-right w3-text-dark-grey"></i>Projects</b></button>
         </div>
       </div><br>
 
@@ -52,18 +52,15 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
     </div>
 
     <!-- Right Column -->
-    <div class="w3-twothird">
-      <div id="About" class="tabcontent">
-        <div class="w3-container w3-card w3-white">
+    <div class="rightColumn">
+      <div id="About" class="tabcontent w3-container w3-card w3-white w3-margin-bottom">
+        <div>
           <h2 class="w3-text-grey w3-padding-16"><i class="fa-fw w3-large w3-text-dark-grey"></i>Hi,</h2>
           <ul>
             <li><p>I am currently studying master's in computer science at University of Colorado Boulder</p></li>
             <li><p>I graduated in Electronics Engineering from IIT(BHU)-Varanasi in 2015 </p></li>
             <li><p>Prior to joining CU Boulder, I worked as a Jr.Research Scientist for one year and a software developer for 3 years at mykaarma.</p></li>
           </ul>
-
-        </div>
-        <div class="skills w3-container w3-card w3-white">
             <h2 class="w3-text-grey w3-padding-16"><i class="fa-fw w3-xxlarge w3-text-dark-grey"></i>My skills</h2>
             <p class="w3-large"><b><i class="fa-fw w3-text-dark-grey"></i>Programming Languages</b></p>
             <p>Java, Python, C, MATLAB, SQL, Google Apps Script</p>
@@ -71,13 +68,11 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
             <p>Tensorflow, GWT, Hibernate, Spring</p>
             <p class="w3-large"><b><i class="fa-fw w3-text-dark-grey"></i>Web Technologies</b></p>
             <p>HTML, CSS, CSS3, Javascript</p>
-        </div>
-        <div class="interests w3-container w3-card w3-white">
           <h2 class="w3-text-grey w3-padding-16"><i class="fa-fw w3-xxlarge w3-text-dark-grey"></i>My interests</h2>
           <p>Machine Learning, Computer Vision,Robotics</p>
         </div>
       </div>
-      <div id="Education"  class="tabcontent w3-container w3-card w3-white">
+      <div id="Education"  class="tabcontent w3-container w3-card w3-white w3-margin-bottom">
         <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-university fa-fw w3-margin-right w3-xxlarge w3-text-dark-grey"></i>Education</h2>
         <div class="w3-container">
           <h5 class="w3-opacity"><b>University of Colorado Boulder</b></h5>
@@ -223,20 +218,17 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 </div>
 
 <script>
-function openlink(evt, menuItemName) {
-  var i, tabcontent, menulinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  menulinks = document.getElementsByClassName("menulinks");
-  for (i = 0; i < menulinks.length; i++) {
-    menulinks[i].className = menulinks[i].className.replace(" active", "");
-  }
-  document.getElementById(menuItemName).style.display = "block";
-  evt.currentTarget.className += " active";
+function openlink(evt, id) {
+  window.location.href=id;
+
+       /* need to stop the form sending of the form
+
+        UPDATE as comment: This may not be exactly correct syntax
+        for stopping a form , look up preventing form submission */
+
+       e.preventDefault();
+       e.stopPropagation();
 }
-document.getElementById("defaultOpen").click();
 </script>
 
 </body>
