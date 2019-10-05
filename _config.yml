@@ -23,15 +23,17 @@ linkedin_username: s-mohan-krishna
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Mohana Krishna and I am currently studying master's in computer science at University of Colorado Boulder. After graduating
+  Hi, my name is Mohana Krishna and I am currently studying master's in computer science at University of Colorado Boulder. After graduating
   in Electronics Engineering from IIT(BHU)-Varanasi in 2015, I worked as a Jr.Research Scientist for one year and a software developer for
   3 years at mykaarma.
 
 
   As a junior research scientist I was involved in developing, training an NLP bot, whose objective was to suggest replies
-  to incming messages. I was also involved in teaching/helping recollect other employees basic probability as it was essential for developers to
-  help improve their design process, conduct tests and grade them. This helped me improve my interpersonal skills. Prior to that as a
-  software developer I was involved in various projects like designing APIs, implementing single sign using SAML, developing a windows app
+  to incoming messages.We developed a game to crowdsource the task of generating training data and used generated data to train the bot. I was also involved in teaching other employees probability concepts as it was essential for developers to
+  help improve their design process, conduct tests and grade them. This helped me improve my interpersonal skills. 
+  
+  
+  Prior to that, as a software developer I was involved in various projects like designing APIs, implementing single sign using SAML, developing a windows app
   which could interact with browser using web sockets, develop a reporting dashboard showing different metrics to name a few.
 
 
