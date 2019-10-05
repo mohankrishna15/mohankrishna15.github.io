@@ -1,0 +1,36 @@
+- layout: left
+  name: Semantic Segmentation
+  github: github.com/mohankrishna15/projects/tree/master/capstone
+  quote: >
+    MACHINE LEARNING NANODEGREE PROGRAM, UDACITY
+  description: | # this will include new lines to allow paragraphs
+    - Implemented the following research paper `DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs`.
+    - Used transfer learning i.e used a pre-trained VGG16 model, trained for the task of object detection with some modifications and re-tuned it for the task of semantic segmentation.
+    - The model uses atrous convolutions instead of normal convolutions to tackle the issue of reduced spatial resolution due to repeated max pooling.
+    - Augmented PASCAL VOC dataset of 8498 images was used to train the model.
+    - The mean IOU achieved was 0.52 on validation set and 0.573 on test set.
+
+- layout: left
+  name: Image Classification
+  github: github.com/mohankrishna15/projects/tree/master/image-classification
+  quote: >
+    MACHINE LEARNING NANODEGREE PROGRAM, UDACITY
+  description: | # this will include new lines to allow paragraphs
+    - Trained a deep neural network consisting of  convolutional layers ,   max pool layers and fully connected layers on CIFAR-10 dataset to classify images.
+
+- layout: left
+  name: Smart Cab
+  github: github.com/mohankrishna15/projects/tree/master/smartcab
+  quote: >
+    MACHINE LEARNING NANODEGREE PROGRAM, UDACITY
+  description: | # this will include new lines to allow paragraphs
+    - Applied reinforcement learning to build a simulated vehicle navigation agent.
+    - This project involved modeling a complex control problem in terms of limited available inputs, and designing a scheme to automatically learn an optimal driving strategy based on rewards and penalties.
+
+- layout: left
+  name: Adult Content Detection
+  quote: >
+    B.TECH PROJECT, IIT(B.H.U.), VARANASI
+  description: | # this will include new lines to allow paragraphs
+    - Continued my work at the internship, mainly worked on increasing the skin classification accuracy of first stage.
+    - Completed the project with a model using 19 features on a random forest comprising of 200 trees, with an accuracy of 80%.

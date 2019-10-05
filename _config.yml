@@ -1,6 +1,73 @@
-theme: jekyll-theme-cayman
+# Site
+repository: mohankrishna15/mohankrishna15.github.io
+# favicon: images/favicon.ico
 
-title: [The title of your site]
-description: [A short description of your site's purpose]
+# Personal info
+name: S. Mohana Krishna
+title: Master's student in computer science
+email: mohana.sanagavarapu@colorado.edu
 
-content: [Bla Bla]
+# Social links
+#twitter_username: facespics
+github_username:  mohankrishna15
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+#instagram_username: chillwildlife
+linkedin_username: s-mohan-krishna
+# pinterest_username: jekyll
+#youtube_username: globalmtb
+# googleplus_username: +jekyll
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name's Mohans Krishna and I am currently studying master's in computer science at University of Colorado Boulder. After graduating
+  in Electronics Engineering from IIT(BHU)-Varanasi in 2015, I worked as a Jr.Research Scientist for one year and a software developer for
+  3 years at mykaarma.
+
+
+  As a junior research scientist I was involved in developing, training an NLP bot, whose objective was to suggest replies
+  to incming messages. I was also involved in teaching/helping recollect other employees basic probability as it was essential for developers to
+  help improve their design process, conduct tests and grade them. This helped me improve my interpersonal skills. Prior to that as a
+  software developer I was involved in various projects like designing APIs, implementing single sign using SAML, developing a windows app
+  which could interact with browser using web sockets, develop a reporting dashboard showing different metrics to name a few.
+
+
+  My main interests are in the fields of Computer Vision, Machine leanring and Robotics.
+
+
+# Projects Section
+# projects_title: Projects
+
+# Experience Section
+# experience_title: Experience
+
+# Education Section
+# educaton_title: Education
+
+# More Section
+# more_title: A Little More About Me
+more_content: | # this will include new lines to allow paragraphs
+  ## **My Skills**
+  **Programming Languages**: Java, Python, C, MATLAB, SQL, Google Apps Script
+
+
+  **Frameworks**: Tensorflow, GWT, Hibernate, Spring
+
+
+  **Web Technologies**: HTML, CSS, CSS3, Javascript
+
+# Footer
+footer_show_references: false
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
