@@ -1,0 +1,42 @@
+- layout: left
+  company: myKaarma
+  link: mykaarma.com
+  job_title: Jr. Research Scientist
+  dates: December 2018 - July 2019
+  description: | # this will include new lines to allow paragraphs
+    - Worked on the development of an NLP bot, whose objective was to be able suggest replies for incoming messages.
+    - We had an internal game implemented to crowdsource the task of generating training data and used that data to train the bot.
+
+
+- layout: left
+  company: myKaarma
+  link: mykaarma.com
+  job_title: Software Developer
+  dates: June 2015 - Dec 2018
+  description: |# this will include new lines to allow paragraphs
+    - Was involved in developing APIs used internally as well as exposed to partners.
+    - Was involved in developing a windows app, to support the ability to take retail payments from browser, which uses websockets to communicate with the app opened in the browser.
+    - Was involved in implementing Single Sign On, using spring SAML Extension for the service provider and SimpleSamlphp for the identity provider, across mykaarma apps.
+    - Lead the project of Internationalisation of myKaarma application, hence giving the ability to support multiple languages.
+    - Developed and maintained a reporting application, which gives insight into the usage of the mykaarma application. Different  metrics are calculated using mysql queries and resulting data is rendered as beautiful charts using google scripts.
+
+- layout: left
+  company: WorldQuant LLC
+  link: worldquant.com
+  job_title: Part Time Research Consulant
+  dates: October 2014 - July 2015
+  description: | # this will include new lines to allow paragraphs
+    - Worked on creating alphas - mathematical predicitve models, to model the performance of financial instruments.
+
+
+- layout: left
+  company: Karpa IT solutions (Filternet Foundation)
+  link: filternet.in
+  job_title: Software Engineer
+  dates: March 2014 - May 2014
+  description: |# this will include new lines to allow paragraphs
+    - Made a basic working model of an image based adult content filter.
+    - Approach was inspired from the research paper  `Detecting Pornographic Images by Localizing Skin ROIs’ by Sotiris Karavarsamis, et. al`.
+    - Using skin color information, identified regions of interest (ROI) from the image.
+    - Extracted a set of 19 features from the ROI, trained a random forest comprising of 100 trees, with 3 features at most for a tree.
+    - Classified images with an accuracy of 75%.
