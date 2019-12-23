@@ -1,4 +1,11 @@
 - layout: left
+  company: Human Interaction and Robotics Group(HIRO)
+  link: hiro-group.ronc.one
+  job_title: Graduate Student Reasearcher
+  dates: NOVEMBER 2019 - PRESENT
+  description: | # this will include new lines to allow paragraphs
+    -  Working on a project to improve existing object detection accuracy using boundary detection techniques.
+- layout: left
   company: myKaarma
   link: mykaarma.com
   job_title: Jr. Research Scientist
