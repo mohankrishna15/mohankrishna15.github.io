@@ -1,4 +1,21 @@
 - layout: left
+  name: Autonomous Vehicle Competition
+  quote: >
+    ADVANCED ROBOTICS, UNIVERSITY OF COLORADO BOULDER
+  description: | # this will include new lines to allow paragraphs
+    - The core objective was to successfully navigate the car through a course track autonomously at a comparable speed.
+    - Apart from the core objective, the vehicle was also required to perform the following challenges: backing out of a collision and performing a power slide during turns.
+    - The navigation block of the vehicle was implemented using a state machine - which had inputs primarily from an RGBD Camera and sent appropriate commands to an ESC (Electronic Speed Controller). The ESC controls both the drive and steering motors.
+    - The project allowed us to look at the real-world challenges of autonomous vehicles more closely, and provided us with a practical experience working with ROS.
+- layout: left
+  name: ImageSegmentation
+  github: github.com/mohankrishna15/Image-Segmentation
+  quote: >
+    DATA SCIENCE TEAM, UNIVERSITY OF COLORADO BOULDER
+  description: | # this will include new lines to allow paragraphs
+    - Using basic image processing techniques like bilateral filtering, laplace transform and morphological operations have achieved an average dice coefficient of 0.862 on a subset of images from carvana dataset. 
+    - The time taken to process an image was 28s on average.
+- layout: left
   name: Semantic Segmentation
   github: github.com/mohankrishna15/projects/tree/master/capstone
   quote: >
