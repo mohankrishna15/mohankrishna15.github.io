@@ -1,18 +1,21 @@
 - layout: left
-  company: Human Interaction and Robotics Group(HIRO)
-  link: hiro-group.ronc.one
-  job_title: Graduate Student Reasearcher
-  dates: NOVEMBER 2019 - PRESENT
+  company: RingCentral Innovation India
+  link: ringcentral.com
+  job_title: Software Development Engineer 3
+  dates: May 2021 - PRESENT
   description: | # this will include new lines to allow paragraphs
-    -  Working on a project to improve existing object detection accuracy using boundary detection techniques.
+    - Am majorly involved in migrating Admin Web(a tool used by admins), to newer tech stack with some additional features.
+    - Worked on a number of projects involving enhancement of Service Web (a tool used by customers) 
+    - Developed and delivered Feature Flag Service, which helped the admins enable and disable features for customers seamlessly without a need for deployment. 
+    - Developed and delivered Device Ordering Service, which helped admins order devices and track the status of their order.
+
 - layout: left
   company: myKaarma
   link: mykaarma.com
   job_title: Jr. Research Scientist
   dates: December 2018 - July 2019
   description: | # this will include new lines to allow paragraphs
-    - Worked on the development of an NLP bot, whose objective was to be able suggest replies for incoming messages.
-    - We had an internal game implemented to crowdsource the task of generating training data and used that data to train the bot.
+    - Helped develop a game for the employees to play and which would help train an in house  bot, meant to suggest replies for incoming messages. This feature was of high significance for the company, and off the shelf NLP bots were not able to suggest good replies for our use cases.
 
 
 - layout: left
@@ -21,12 +24,11 @@
   job_title: Software Developer
   dates: June 2015 - Dec 2018
   description: |# this will include new lines to allow paragraphs
-    - Was involved in developing APIs used internally as well as exposed to partners.
-    - Was involved in developing a windows app, to support the ability to take retail payments from browser, which uses websockets to communicate with the app opened in the browser.
-    - Was involved in implementing Single Sign On, using spring SAML Extension for the service provider and SimpleSamlphp for the identity provider, across mykaarma apps.
-    - Lead the project of Internationalisation of myKaarma application, hence giving the ability to support multiple languages.
-    - Developed and maintained a reporting application, which gives insight into the usage of the mykaarma application. Different  metrics are calculated using mysql queries and resulting data is rendered as beautiful charts using google scripts.
-
+    - Lead the project of white labeling our application, this was of huge business value as this helped the company penetrate further in the industry and become irreplaceable.
+    - Was part of the architecture team, which majorly contributed in developing microservices and defining coding standards and guidelines for the company.
+    - Implemented single sign on, so that customers can login into partner applications using our credentials. This was of high business value as it helped the company easily integrate with other applications and provide many new features to our customers.
+    - Developed and maintained a reporting application, developed on Google Apps Script and MySQL, to give our customer insight into the usage of the application like the count of payments taken, calls attended etc.. 
+    
 - layout: left
   company: WorldQuant LLC
   link: worldquant.com
