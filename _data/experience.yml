@@ -23,7 +23,7 @@
   link: mykaarma.com
   job_title: Software Developer
   dates: June 2015 - Dec 2018
-  description: |# this will include new lines to allow paragraphs
+  description: | # this will include new lines to allow paragraphs
     - Lead the project of white labeling our application, this was of huge business value as this helped the company penetrate further in the industry and become irreplaceable.
     - Was part of the architecture team, which majorly contributed in developing microservices and defining coding standards and guidelines for the company.
     - Implemented single sign on, so that customers can login into partner applications using our credentials. This was of high business value as it helped the company easily integrate with other applications and provide many new features to our customers.
@@ -43,7 +43,7 @@
   link: filternet.in
   job_title: Software Engineer
   dates: March 2014 - May 2014
-  description: |# this will include new lines to allow paragraphs
+  description: | # this will include new lines to allow paragraphs
     - Made a basic working model of an image based adult content filter.
     - Approach was inspired from the research paper  `Detecting Pornographic Images by Localizing Skin ROIs’ by Sotiris Karavarsamis, et. al`.
     - Using skin color information, identified regions of interest (ROI) from the image.
